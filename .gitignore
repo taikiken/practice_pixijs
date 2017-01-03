@@ -210,3 +210,5 @@ eslint.es5.yml
 
 # app
 app/_compile/
+app/pixi/
+app/**/*.scss
