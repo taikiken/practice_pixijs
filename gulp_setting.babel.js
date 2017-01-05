@@ -158,8 +158,9 @@ dir.app = {
   css: `${assets}/css`,
   js: `${assets}/js`,
   libs: `${assets}/js/libs`,
-  bundle: `${assets}/js/bundle`,
-  babel: `${assets}/js/babel`,
+  // bundle: `${assets}/js/bundle`,
+  bundle: `${assets}/js`,
+  babel: `${assets}/_babel`,
 };
 
 // scss

@@ -74,7 +74,7 @@ gulp.task('babels:lint', () => gulp.src(files)
 gulp.task('babels:babel', () => gulp.src(files)
   .pipe($.babel({
     presets: [
-      'es2015',
+      'es2016',
       'react',
       'stage-0',
     ],
