@@ -76,7 +76,7 @@ gulp.task('serve:app', () => {
   // scss, css
   gulp.watch([`${dir.app.root}/**/*.{scss,css}`, `${dir.scss}/**/*.scss`], ['css:dev', $$.reload]);
   // js
-  gulp.watch([`${dir.app.root}/**/*.js`], ['js:eslint', $$.reload]);
+  gulp.watch([`${dir.app.root}/**/*.js`, `!${dir.app.root}/**/*.babel.js`, `!${dir.app.root}/**/*.compile.js`], $$.reload);
   // image
   gulp.watch([`${dir.app.root}/**/*.{png,jpg,gif,svg}`], $$.reload);
   // font

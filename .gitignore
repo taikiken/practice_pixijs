@@ -212,3 +212,4 @@ eslint.es5.yml
 app/_compile/
 app/pixi/
 app/**/*.scss
+app/**/sprite/*
